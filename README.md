@@ -2,4 +2,4 @@
 
 With threads or forks, `vitest-dynamodb-lite` doesn't start dynalite on other tests.
 
-See: --Issue link pending--
+See: https://github.com/yamatatsu/vitest-dynamodb-lite/issues/16

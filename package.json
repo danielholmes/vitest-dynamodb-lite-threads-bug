@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "test:all:fail": "vitest run -c vite-fail.config.mjs",
+    "test:all:success": "vitest run -c vite-success.config.mjs"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "vitest-dynamodb-lite": "^3.1.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.614.0"
+  }
+}
